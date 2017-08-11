@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45C6CF6A1F3D4F49007BFA0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C6CF691F3D4F49007BFA0C /* main.m */; };
+		45C6CF6D1F3D4F49007BFA0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C6CF6C1F3D4F49007BFA0C /* AppDelegate.m */; };
+		45C6CF701F3D4F49007BFA0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C6CF6F1F3D4F49007BFA0C /* ViewController.m */; };
+		45C6CF731F3D4F49007BFA0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C6CF711F3D4F49007BFA0C /* Main.storyboard */; };
+		45C6CF751F3D4F49007BFA0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C6CF741F3D4F49007BFA0C /* Assets.xcassets */; };
+		45C6CF781F3D4F49007BFA0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C6CF761F3D4F49007BFA0C /* LaunchScreen.storyboard */; };
+		45C6CF831F3D4F49007BFA0C /* MerchantPay_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C6CF821F3D4F49007BFA0C /* MerchantPay_iOSTests.m */; };
+		45C6CF8E1F3D4F49007BFA0C /* MerchantPay_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C6CF8D1F3D4F49007BFA0C /* MerchantPay_iOSUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45C6CF7F1F3D4F49007BFA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45C6CF5D1F3D4F49007BFA0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C6CF641F3D4F49007BFA0C;
+			remoteInfo = "MerchantPay-iOS";
+		};
+		45C6CF8A1F3D4F49007BFA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45C6CF5D1F3D4F49007BFA0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C6CF641F3D4F49007BFA0C;
+			remoteInfo = "MerchantPay-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45C6CF651F3D4F49007BFA0C /* MerchantPay-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MerchantPay-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C6CF691F3D4F49007BFA0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45C6CF6B1F3D4F49007BFA0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45C6CF6C1F3D4F49007BFA0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45C6CF6E1F3D4F49007BFA0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45C6CF6F1F3D4F49007BFA0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45C6CF721F3D4F49007BFA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45C6CF741F3D4F49007BFA0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45C6CF771F3D4F49007BFA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45C6CF791F3D4F49007BFA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C6CF7E1F3D4F49007BFA0C /* MerchantPay-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MerchantPay-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C6CF821F3D4F49007BFA0C /* MerchantPay_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MerchantPay_iOSTests.m; sourceTree = "<group>"; };
+		45C6CF841F3D4F49007BFA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45C6CF891F3D4F49007BFA0C /* MerchantPay-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MerchantPay-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C6CF8D1F3D4F49007BFA0C /* MerchantPay_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MerchantPay_iOSUITests.m; sourceTree = "<group>"; };
+		45C6CF8F1F3D4F49007BFA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C6CF621F3D4F49007BFA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C6CF7B1F3D4F49007BFA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C6CF861F3D4F49007BFA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45C6CF5C1F3D4F49007BFA0C = {
+			isa = PBXGroup;
+			children = (
+				45C6CF671F3D4F49007BFA0C /* MerchantPay-iOS */,
+				45C6CF811F3D4F49007BFA0C /* MerchantPay-iOSTests */,
+				45C6CF8C1F3D4F49007BFA0C /* MerchantPay-iOSUITests */,
+				45C6CF661F3D4F49007BFA0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45C6CF661F3D4F49007BFA0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C6CF651F3D4F49007BFA0C /* MerchantPay-iOS.app */,
+				45C6CF7E1F3D4F49007BFA0C /* MerchantPay-iOSTests.xctest */,
+				45C6CF891F3D4F49007BFA0C /* MerchantPay-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45C6CF671F3D4F49007BFA0C /* MerchantPay-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				45C6CF6B1F3D4F49007BFA0C /* AppDelegate.h */,
+				45C6CF6C1F3D4F49007BFA0C /* AppDelegate.m */,
+				45C6CF6E1F3D4F49007BFA0C /* ViewController.h */,
+				45C6CF6F1F3D4F49007BFA0C /* ViewController.m */,
+				45C6CF711F3D4F49007BFA0C /* Main.storyboard */,
+				45C6CF741F3D4F49007BFA0C /* Assets.xcassets */,
+				45C6CF761F3D4F49007BFA0C /* LaunchScreen.storyboard */,
+				45C6CF791F3D4F49007BFA0C /* Info.plist */,
+				45C6CF681F3D4F49007BFA0C /* Supporting Files */,
+			);
+			path = "MerchantPay-iOS";
+			sourceTree = "<group>";
+		};
+		45C6CF681F3D4F49007BFA0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45C6CF691F3D4F49007BFA0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45C6CF811F3D4F49007BFA0C /* MerchantPay-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				45C6CF821F3D4F49007BFA0C /* MerchantPay_iOSTests.m */,
+				45C6CF841F3D4F49007BFA0C /* Info.plist */,
+			);
+			path = "MerchantPay-iOSTests";
+			sourceTree = "<group>";
+		};
+		45C6CF8C1F3D4F49007BFA0C /* MerchantPay-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45C6CF8D1F3D4F49007BFA0C /* MerchantPay_iOSUITests.m */,
+				45C6CF8F1F3D4F49007BFA0C /* Info.plist */,
+			);
+			path = "MerchantPay-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C6CF641F3D4F49007BFA0C /* MerchantPay-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C6CF921F3D4F49007BFA0C /* Build configuration list for PBXNativeTarget "MerchantPay-iOS" */;
+			buildPhases = (
+				45C6CF611F3D4F49007BFA0C /* Sources */,
+				45C6CF621F3D4F49007BFA0C /* Frameworks */,
+				45C6CF631F3D4F49007BFA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MerchantPay-iOS";
+			productName = "MerchantPay-iOS";
+			productReference = 45C6CF651F3D4F49007BFA0C /* MerchantPay-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45C6CF7D1F3D4F49007BFA0C /* MerchantPay-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C6CF951F3D4F49007BFA0C /* Build configuration list for PBXNativeTarget "MerchantPay-iOSTests" */;
+			buildPhases = (
+				45C6CF7A1F3D4F49007BFA0C /* Sources */,
+				45C6CF7B1F3D4F49007BFA0C /* Frameworks */,
+				45C6CF7C1F3D4F49007BFA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45C6CF801F3D4F49007BFA0C /* PBXTargetDependency */,
+			);
+			name = "MerchantPay-iOSTests";
+			productName = "MerchantPay-iOSTests";
+			productReference = 45C6CF7E1F3D4F49007BFA0C /* MerchantPay-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45C6CF881F3D4F49007BFA0C /* MerchantPay-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C6CF981F3D4F49007BFA0C /* Build configuration list for PBXNativeTarget "MerchantPay-iOSUITests" */;
+			buildPhases = (
+				45C6CF851F3D4F49007BFA0C /* Sources */,
+				45C6CF861F3D4F49007BFA0C /* Frameworks */,
+				45C6CF871F3D4F49007BFA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45C6CF8B1F3D4F49007BFA0C /* PBXTargetDependency */,
+			);
+			name = "MerchantPay-iOSUITests";
+			productName = "MerchantPay-iOSUITests";
+			productReference = 45C6CF891F3D4F49007BFA0C /* MerchantPay-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45C6CF5D1F3D4F49007BFA0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MerchantPay;
+				TargetAttributes = {
+					45C6CF641F3D4F49007BFA0C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					45C6CF7D1F3D4F49007BFA0C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45C6CF641F3D4F49007BFA0C;
+					};
+					45C6CF881F3D4F49007BFA0C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45C6CF641F3D4F49007BFA0C;
+					};
+				};
+			};
+			buildConfigurationList = 45C6CF601F3D4F49007BFA0C /* Build configuration list for PBXProject "MerchantPay-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45C6CF5C1F3D4F49007BFA0C;
+			productRefGroup = 45C6CF661F3D4F49007BFA0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C6CF641F3D4F49007BFA0C /* MerchantPay-iOS */,
+				45C6CF7D1F3D4F49007BFA0C /* MerchantPay-iOSTests */,
+				45C6CF881F3D4F49007BFA0C /* MerchantPay-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C6CF631F3D4F49007BFA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C6CF781F3D4F49007BFA0C /* LaunchScreen.storyboard in Resources */,
+				45C6CF751F3D4F49007BFA0C /* Assets.xcassets in Resources */,
+				45C6CF731F3D4F49007BFA0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C6CF7C1F3D4F49007BFA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C6CF871F3D4F49007BFA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C6CF611F3D4F49007BFA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C6CF701F3D4F49007BFA0C /* ViewController.m in Sources */,
+				45C6CF6D1F3D4F49007BFA0C /* AppDelegate.m in Sources */,
+				45C6CF6A1F3D4F49007BFA0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C6CF7A1F3D4F49007BFA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C6CF831F3D4F49007BFA0C /* MerchantPay_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C6CF851F3D4F49007BFA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C6CF8E1F3D4F49007BFA0C /* MerchantPay_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45C6CF801F3D4F49007BFA0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C6CF641F3D4F49007BFA0C /* MerchantPay-iOS */;
+			targetProxy = 45C6CF7F1F3D4F49007BFA0C /* PBXContainerItemProxy */;
+		};
+		45C6CF8B1F3D4F49007BFA0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C6CF641F3D4F49007BFA0C /* MerchantPay-iOS */;
+			targetProxy = 45C6CF8A1F3D4F49007BFA0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45C6CF711F3D4F49007BFA0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C6CF721F3D4F49007BFA0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45C6CF761F3D4F49007BFA0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C6CF771F3D4F49007BFA0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45C6CF901F3D4F49007BFA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45C6CF911F3D4F49007BFA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45C6CF931F3D4F49007BFA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MerchantPay-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.merchantPay.a.MerchantPay-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45C6CF941F3D4F49007BFA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MerchantPay-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.merchantPay.a.MerchantPay-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45C6CF961F3D4F49007BFA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MerchantPay-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.merchantPay.a.MerchantPay-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerchantPay-iOS.app/MerchantPay-iOS";
+			};
+			name = Debug;
+		};
+		45C6CF971F3D4F49007BFA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "MerchantPay-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.merchantPay.a.MerchantPay-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MerchantPay-iOS.app/MerchantPay-iOS";
+			};
+			name = Release;
+		};
+		45C6CF991F3D4F49007BFA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MerchantPay-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.merchantPay.a.MerchantPay-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MerchantPay-iOS";
+			};
+			name = Debug;
+		};
+		45C6CF9A1F3D4F49007BFA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "MerchantPay-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.merchantPay.a.MerchantPay-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "MerchantPay-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C6CF601F3D4F49007BFA0C /* Build configuration list for PBXProject "MerchantPay-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C6CF901F3D4F49007BFA0C /* Debug */,
+				45C6CF911F3D4F49007BFA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C6CF921F3D4F49007BFA0C /* Build configuration list for PBXNativeTarget "MerchantPay-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C6CF931F3D4F49007BFA0C /* Debug */,
+				45C6CF941F3D4F49007BFA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45C6CF951F3D4F49007BFA0C /* Build configuration list for PBXNativeTarget "MerchantPay-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C6CF961F3D4F49007BFA0C /* Debug */,
+				45C6CF971F3D4F49007BFA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45C6CF981F3D4F49007BFA0C /* Build configuration list for PBXNativeTarget "MerchantPay-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C6CF991F3D4F49007BFA0C /* Debug */,
+				45C6CF9A1F3D4F49007BFA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45C6CF5D1F3D4F49007BFA0C /* Project object */;
+}
