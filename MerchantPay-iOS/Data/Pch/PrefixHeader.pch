@@ -1,0 +1,62 @@
+//
+//  PrefixHeader.pch
+//  MerchantPay-iOS
+//
+//  Created by 范保莹 on 2017/8/11.
+//  Copyright © 2017年 MerchantPay. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define navColor [UIColor colorWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1]
+#define ALLTextColor [UIColor colorWithRed:89/255.0 green:99/255.0 blue:104/255.0 alpha:1]
+#define ALLText1Color [UIColor colorWithRed:245/255.0 green:245/255.0 blue:245/255.0 alpha:1];
+#define ALLText2Color [UIColor colorWithRed:227/255.0 green:227/255.0 blue:229/255.0 alpha:1];
+
+#define ALLText3Color [UIColor colorWithRed:181 /255.0 green:188/255.0 blue:192/255.0 alpha:1];
+
+#define ALLBGColor [UIColor colorWithRed:238/255.0 green:241/255.0 blue:247/255.0 alpha:0.5];
+
+#define ALLBtnColor [UIColor colorWithRed:255/255.0 green:80/255.0 blue:10/255.0 alpha:1]
+
+#define ALLRedBtnColor [UIColor colorWithRed:213/255.0 green:122/255.0 blue:115/255.0 alpha:1]
+
+#define AGREENewFuWuURL @"http://pay.soongrande.com/"
+
+//微信支付
+#define WechatPay @"agree-pay-web-gateway/api/v1/charges"
+
+//微信扫描二维码收款
+#define SweepCharges @"agree-pay-web-gateway/scan/charges"
+
+//生成收款二维码
+
+
+//退款
+#define agreeRefund @"agree-pay-web-gateway/api/v1/refund"
+
+
+
+//获取订单金额，数量，退款金额数量
+#define agreeGetStatics @"agree-pay-app-gateway/api/app1/getStatics"
+
+//获取订单列表
+#define agreegetAllPay @"agree-pay-app-gateway/api/app1/getAllPay"
+
+//获取订单详情
+#define agreegetByTrxNo @"agree-pay-app-gateway/api/app1/getByTrxNo/"
+
+//快捷支付支付
+#define cardPay @"http://139.198.3.34:8082/api/generate/savePayOrder"
+
+
+#define appScheme @"agreeScheme"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
