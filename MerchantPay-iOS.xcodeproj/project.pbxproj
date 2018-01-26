@@ -156,6 +156,7 @@
 		45C6D1601F43E9E2007BFA0C /* payMoney1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C6D15F1F43E9E2007BFA0C /* payMoney1@2x.png */; };
 		45C6D1621F43F3FE007BFA0C /* mySelf@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C6D1611F43F3FE007BFA0C /* mySelf@2X.png */; };
 		45C6D1641F43F4C2007BFA0C /* mySelf1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C6D1631F43F4C2007BFA0C /* mySelf1@2x.png */; };
+		45DAEA111FB2AA1B007ECF48 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DAEA101FB2AA1B007ECF48 /* icon.png */; };
 		45E728231F4E69B2009067F1 /* UIImage+SGHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E728161F4E69B2009067F1 /* UIImage+SGHelper.m */; };
 		45E728241F4E69B2009067F1 /* SGQRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 45E728171F4E69B2009067F1 /* SGQRCode.bundle */; };
 		45E728251F4E69B2009067F1 /* SGQRCodeAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E7281A1F4E69B2009067F1 /* SGQRCodeAlbumManager.m */; };
@@ -428,6 +429,7 @@
 		45C6D15F1F43E9E2007BFA0C /* payMoney1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payMoney1@2x.png"; sourceTree = "<group>"; };
 		45C6D1611F43F3FE007BFA0C /* mySelf@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mySelf@2X.png"; sourceTree = "<group>"; };
 		45C6D1631F43F4C2007BFA0C /* mySelf1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mySelf1@2x.png"; sourceTree = "<group>"; };
+		45DAEA101FB2AA1B007ECF48 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		45E728151F4E69B2009067F1 /* UIImage+SGHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SGHelper.h"; sourceTree = "<group>"; };
 		45E728161F4E69B2009067F1 /* UIImage+SGHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SGHelper.m"; sourceTree = "<group>"; };
 		45E728171F4E69B2009067F1 /* SGQRCode.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SGQRCode.bundle; sourceTree = "<group>"; };
@@ -703,6 +705,7 @@
 		45C6CFAB1F3D55DC007BFA0C /* DelegateImage */ = {
 			isa = PBXGroup;
 			children = (
+				45DAEA101FB2AA1B007ECF48 /* icon.png */,
 				45C6CFAC1F3D55E8007BFA0C /* first@2x.png */,
 				45C6CFB21F3D5995007BFA0C /* fourth@2x.png */,
 			);
@@ -1310,6 +1313,7 @@
 				45C6D1021F42E66B007BFA0C /* order2@2x.png in Resources */,
 				45C6CFFC1F4176DD007BFA0C /* back.png in Resources */,
 				45C6CFAE1F3D55E8007BFA0C /* first@2x.png in Resources */,
+				45DAEA111FB2AA1B007ECF48 /* icon.png in Resources */,
 				45C6D0401F42878E007BFA0C /* yiliaoka.png in Resources */,
 				45C6D15E1F43E830007BFA0C /* payMoney@2x.png in Resources */,
 				45C6CF751F3D4F49007BFA0C /* Assets.xcassets in Resources */,
@@ -1539,6 +1543,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MerchantPay-iOS/Data/Pch/PrefixHeader.pch";
 				INFOPLIST_FILE = "MerchantPay-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1686,6 +1691,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MerchantPay-iOS/Data/Pch/PrefixHeader.pch";
 				INFOPLIST_FILE = "MerchantPay-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1720,6 +1726,7 @@
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MerchantPay-iOS/Data/Pch/PrefixHeader.pch";
 				INFOPLIST_FILE = "MerchantPay-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
